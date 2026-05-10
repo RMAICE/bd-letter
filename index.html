@@ -29,7 +29,6 @@
       .scene {
         width: 90vw;
         height: 80vh;
-        max-width: 400px;
         perspective: 1500px;
       }
 
@@ -66,8 +65,9 @@
       /* FRONT PAGE: Photos and Main Message */
       .page-front {
         background-image: url("bd-main.jpg");
-        background-size: 100% auto;
+        background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
         z-index: 2;
       }
 
@@ -106,7 +106,7 @@
 
       .tap-hint {
         position: absolute;
-        bottom: 2rem;
+        bottom: 1rem;
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
